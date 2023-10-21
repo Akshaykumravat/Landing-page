@@ -1,10 +1,13 @@
 Shery.imageEffect("#back", {
   style: 4,
   config: {
-    a: { value: 0, range: [0, 30] },
-    b: { value: -0.9, range: [-1, 1] },
+    uColor: { value: false },
+    uSpeed: { value: 0.57, range: [0.1, 1], rangep: [1, 10] },
+    uAmplitude: { value: 1.5, range: [0, 5] },
+    uFrequency: { value: 3.5, range: [0, 10] },
+    geoVertex: { range: [1, 64], value: 1 },
     zindex: { value: "", range: [-9999999, 9999999] },
-    aspect: { value: 2.148190111735243 },
+    aspect: { value: 2.0617551462621884 },
     gooey: { value: true },
     infiniteGooey: { value: true },
     growSize: { value: 4, range: [1, 15] },
@@ -14,7 +17,6 @@ Shery.imageEffect("#back", {
     masker: { value: false },
     maskVal: { value: 1, range: [1, 5] },
     scrollType: { value: 0 },
-    geoVertex: { range: [1, 64], value: 1 },
     noEffectGooey: { value: false },
     onMouse: { value: 1 },
     noise_speed: { value: 0.58, range: [0, 10] },
@@ -23,6 +25,8 @@ Shery.imageEffect("#back", {
     antialias_threshold: { value: 0, range: [0, 0.1] },
     noise_height: { value: 0.38, range: [0, 2] },
     noise_scale: { value: 17.36, range: [0, 100] },
+    a: { value: 0, range: [0, 30] },
+    b: { value: -0.9, range: [-1, 1] },
   },
   gooey: true,
 });
