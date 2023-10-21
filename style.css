@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
     /* font-family: 'Roboto', sans-serif; */
 }
+@font-face{
+    font-family:'kajiro';
+    src: url("./fonts/kajiro Bold.ttf") format('ttf');
+}
 
 html,
 body {
